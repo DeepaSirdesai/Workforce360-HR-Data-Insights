@@ -13,37 +13,33 @@ The HR Analytics Dashboard is designed to provide insights into employee attriti
 * Support strategic HR initiatives, including retention planning, compensation strategy, and workforce diversity analysis.
 
 ## 📈 Key KPIs
-1. Attrition Rate
-  Attrition Rate = (CALCULATE(count(HR_Analytics[EmpID]),HR_Analytics[Attrition]="Yes")/COUNT(HR_Analytics[EmpID]))*100 
+1. Attrition Rate = (CALCULATE(count(HR_Analytics[EmpID]),HR_Analytics[Attrition]="Yes")/COUNT(HR_Analytics[EmpID]))*100 
 
-2. Average Age
-  Average Age = AVERAGE(HR_Analytics[Age])
+2. Average Age = AVERAGE(HR_Analytics[Age])
 
-3. Average Salary
-   Average Salary = AVERAGE(HR_Analytics[MonthlyIncome])
+3. Average Salary = AVERAGE(HR_Analytics[MonthlyIncome])
    
-4.Average_years_at_Company
-  Average_years_at_Company = AVERAGE(HR_Analytics[YearsAtCompany])
+4.Average_years_at_Company = AVERAGE(HR_Analytics[YearsAtCompany])
   
 ## 📊 Visuals & Insights
 1. Attrition by Education Field (Donut Chart)
-    Breaks down attrition count by education field (e.g., Life Sciences, Medical, Technical Degree, Marketing).
-    Helps analyze which educational backgrounds have higher turnover.
+    * Breaks down attrition count by education field (e.g., Life Sciences, Medical, Technical Degree, Marketing).
+    * Helps analyze which educational backgrounds have higher turnover.
 
 2. Attrition by Age Group (Bar Chart)
-    Groups employees into age brackets (18–25, 26–35, 36–45, etc.).
-    Shows attrition is highest in the 26–35 group, indicating mid-career turnover risk.
+    * Groups employees into age brackets (18–25, 26–35, 36–45, etc.).
+    * Shows attrition is highest in the 26–35 group, indicating mid-career turnover risk.
 
 3. Attrition by Job Role (Bar Chart + Matrix)
-    Compares attrition across different job roles (Sales Executive, Research Scientist, Manager, etc.).
-    Matrix table shows counts by job role and attrition category.
-    Useful to pinpoint high-turnover roles (e.g., Sales & Research).
+    * Compares attrition across different job roles (Sales Executive, Research Scientist, Manager, etc.).
+    * Matrix table shows counts by job role and attrition category.
+    * Useful to pinpoint high-turnover roles (e.g., Sales & Research).
 
 4. Attrition by Salary Slab (Bar Chart)
-    Groups salary ranges into slabs (Up to 5k, 5k–10k, 10k–15k, 15k+).
-    Shows lower salary bands have higher attrition → signals compensation-related turnover.
+    * Groups salary ranges into slabs (Up to 5k, 5k–10k, 10k–15k, 15k+).
+    * Shows lower salary bands have higher attrition → signals compensation-related turnover.
 
 5. Attrition by Years at Company (Line Chart)
-    Displays attrition trend across tenure years.
-    Attrition spikes during early years of employment, then stabilizes → highlights onboarding & engagement gaps.
+    * Displays attrition trend across tenure years.
+    * Attrition spikes during early years of employment, then stabilizes → highlights onboarding & engagement gaps.
   
