@@ -19,7 +19,7 @@ The HR Analytics Dashboard is designed to provide insights into employee attriti
 
 3. Average Salary = AVERAGE(HR_Analytics[MonthlyIncome])
    
-4.Average_years_at_Company = AVERAGE(HR_Analytics[YearsAtCompany])
+4. Average_years_at_Company = AVERAGE(HR_Analytics[YearsAtCompany])
   
 ## 📊 Visuals & Insights
 1. Attrition by Education Field (Donut Chart)
